@@ -10,6 +10,8 @@ Methodologies/Techniques considered:
 Q:If you had more time to spend on the solution, what else would you add/extend?
 I'd like to add the search implementation in the search box and the star rating 
 I would also like to try other ways of making the application more scalable i.e. how will it handle adding more listings?
+I could be being pedantic but further playing the box shadowing and border radius to get a more crisper design similar to the target design 
+Drop down box alignment with cards
 
 Q:What browsers did you test this in? 
 When deployed using github pages 
