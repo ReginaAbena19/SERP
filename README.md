@@ -7,6 +7,8 @@ You’ll notice some features on the page that could be implemented, e.g. the So
 
 We’ve attached an assets folder with some images and fonts for you to use in your implementation, but the rest of the styling is up to your interpretation. Getting as close to the original design is the aim. 
 
+![Image of target design](./assets/images/Simplified%20SERP.png)
+
 # Installation
 The challenge is deployed using Github pages the end result can be found here: https://reginaabena19.github.io/SERP/ When view through an editor ensure live server is installed in order to run the index.html file in the browser.
 
