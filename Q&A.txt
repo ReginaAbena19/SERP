@@ -1,6 +1,24 @@
-Questions
-Once you’ve finished the test, there’s a couple questions we’d like you to answer. Please attach these to your files for submission.
-How long did you spend on this tech test? Did you use any methodologies or techniques when writing the code?
-If you had more time to spend on the solution, what else would you add/extend?
-What browsers did you test this in? 
-Are there any UI/UX improvements you would suggest for the current design?
+Q&A:
+Q: How long did you spend on this tech test? Did you use any methodologies or techniques when writing the code?
+I spent a total of 4 hours on this project. Approximately 2 hours on completing the UI as close to the design and another 2 hours doing the javascript implementation. The implementation consisted of dynamically generating html elements and refactoring code until functionality was achieved.
+
+Methodologies/Techniques considered:
+- Flexbox vs Grid layout 
+- Pure Javascript/ Jquery
+- Es6 
+
+Q:If you had more time to spend on the solution, what else would you add/extend?
+I'd like to add the search implementation in the search box and the star rating 
+I would also like to try other ways of making the application more scalable i.e. how will it handle adding more listings?
+
+Q:What browsers did you test this in? 
+When deployed using github pages 
+Default browser - Google chrome 
+Also tested in:
+- Firefox, Opera and Apple Safari 
+
+Q:Are there any UI/UX improvements you would suggest for the current design?
+- Loading times
+-Accessibility 
+-White spaces 
+- User -input/feedback for design 
