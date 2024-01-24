@@ -206,8 +206,8 @@ html, body {
 }
 
 input:checked + .slider {
-  background-color: var(--brandColorOne);
-  box-shadow: 0 0 1px  var(--brandColorOne);
+  background-color: var(--brandColourOne);
+  box-shadow: 0 0 1px  var(--brandColourOne);
 }
 
 input:checked + .slider:before {
