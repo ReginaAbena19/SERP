@@ -13,7 +13,7 @@
       "max": 50
   },
   "logo": "logo-rosas.png",
-  "bgImage": "thai.jpg"
+  "bgImage": "thai.png"
 },
 {
   "id": "2",
@@ -30,7 +30,7 @@
       "max": 30
   },
   "logo": "logo-dennis-kebab.png",
-  "bgImage": "kebab.jpg"
+  "bgImage": "kebab.png"
 },
 {
   "id": "3",
@@ -47,7 +47,7 @@
       "max": 30
   },
   "logo": "logo-subway.png",
-  "bgImage": "sandwich.jpg"
+  "bgImage": "sandwich.png"
 },
 {
   "id": "4",
@@ -64,5 +64,5 @@
       "max": 30
   },
   "logo": "logo-bellas.png",
-  "bgImage": "pizza.jpg"
+  "bgImage": "pizza.png"
 }]
