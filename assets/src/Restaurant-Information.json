@@ -1,0 +1,68 @@
+[{
+  "id": "1",
+  "name": "Rosa's Thai Cafe",
+  "cuisines": ["thai", "curry"],
+  "rating": {
+      "count": 235,
+      "starRating": 4.1
+  },
+  "isNew": false,
+  "isOpen": true,
+  "deliveryTime": {
+      "min": 35,
+      "max": 50
+  },
+  "logo": "logo-rosas.png",
+  "bgImage": "thai.jpg"
+},
+{
+  "id": "2",
+  "name": "Dennis Kebab",
+  "cuisines": ["lebanese", "kebab"],
+  "rating": {
+      "count": 12,
+      "starRating": 3.7
+  },
+  "isNew": true,
+  "isOpen": true,
+  "deliveryTime": {
+      "min": 15,
+      "max": 30
+  },
+  "logo": "logo-dennis-kebab.png",
+  "bgImage": "kebab.jpg"
+},
+{
+  "id": "3",
+  "name": "Subway",
+  "cuisines": ["sandwich", "healthy"],
+  "rating": {
+      "count": 7,
+      "starRating": 5
+  },
+  "isNew": false,
+  "isOpen": false,
+  "deliveryTime": {
+      "min": 15,
+      "max": 30
+  },
+  "logo": "logo-subway.png",
+  "bgImage": "sandwich.jpg"
+},
+{
+  "id": "4",
+  "name": "Bella Italia",
+  "cuisines": ["italian", "pizza"],
+  "rating": {
+      "count": 777,
+      "starRating": 4.9
+  },
+  "isNew": true,
+  "isOpen": false,
+  "deliveryTime": {
+      "min": 15,
+      "max": 30
+  },
+  "logo": "logo-bellas.png",
+  "bgImage": "pizza.jpg"
+}]
