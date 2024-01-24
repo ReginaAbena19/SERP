@@ -206,8 +206,8 @@ html, body {
 }
 
 input:checked + .slider {
-  background-color: #f36805;
-  box-shadow: 0 0 1px #f36805;
+  background-color: var(--brandColorOne);
+  box-shadow: 0 0 1px  var(--brandColorOne);
 }
 
 input:checked + .slider:before {
@@ -224,7 +224,7 @@ input:checked + .slider:before {
 }
 
 .star {
-  color:#ff3333;
+  color:var(--brandColourTwo);
   size: 100px;
   cursor: pointer;
 }
@@ -234,8 +234,7 @@ input:checked + .slider:before {
 }  
 
 .checked {
-  /* color: orange; */
-  color:#e3860d;
+  color: var(--brandColourThree);
 }
 
 /*Card styling*/
