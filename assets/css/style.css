@@ -1,7 +1,52 @@
-html, body {
-  width: 100vw;
+:root {
+  --firstFont: url("../fonts/JETSansDigital-Bold.ttf");
+  --secondFont: url("../fonts/JETSansDigital-Bold.woff");
+  --thirdFont: url("../fonts/JETSansDigital-Bold.woff2");
+  --fourthFont: url("../fonts/JETSansDigital-Regular(1).ttf");
+  --fifthFont: url("../fonts/JETSansDigital-Regular.woff");
+  --sixthFont: url("../fonts/JETSansDigital-Regular.woff2");
+  --brandColourOne: #f36805;
+  --brandColourTwo: #ff3333;
+  --brandColourThree: #e3860d;
 }
 
+/*Whole page*/
+html, body {
+  width: 100%; 
+}
+
+/*Fonts */
+@font-face {
+  font-family: firstFont;
+  src: url("../fonts/var(--firstFont)");
+}
+
+@font-face {
+  font-family: secondFont;
+  src: url("../fonts/var(--secondFont)");
+}
+
+@font-face {
+  font-family: thirdFont;
+  src: url("../fonts/var(--thirdFont)");
+}
+
+@font-face {
+  font-family: fourthFont;
+  src: url("../fonts/var(--fourthFont)");
+}
+
+@font-face {
+  font-family: fifthFont;
+  src: url("../fonts/var(--fifthFont)");
+}
+
+@font-face {
+  font-family: sixthFont;
+  src: url("../fonts/var(--sixthFont)");
+}
+
+/*Layout styling */
 .content {
   max-width: 1200px;
   display: flex;
@@ -16,61 +61,17 @@ html, body {
 }
 
 .sidebar {
-  width: 300px
+  width: 300px 
 }
 
 .main {
   width: 100%;
 }
 
+/*Header styling*/
+
 .sort-area {
   display: flex;
-}
-
-.subHeading {
-  margin-top: 20px;
-  font-size: 0.8rem;
-  font-family: firstFont;
-}
-
-.card-container {
-  width: 100%;
-}
-
-.card {
-  width: 100%;
-  box-shadow: 2px 2px 6px 2px #ddd; 
-  margin: 20px 0;
-  border-radius: 10px;
-  display: flex;
-  position: relative;
-
-}
-
-.takeaway-photo-container {
-  width: 300px;
-  height: 100%;
-  border-radius: 10px 0 0 10px;
-  overflow: hidden;
-}
-
-.takeaway-photo {
-  width: 110%;
-  height: 100%;
-}
-
-.takeway-icon {
-  position: absolute;
-  z-index: 2;
-  left: 10px;
-  bottom: 10px;
-  width: 50px;
-  border-radius: 5px;
-}
-
-.takeaway-text {
-  width: 100%;
-  padding: 0 20px;
 }
 
 .navigation {
@@ -84,7 +85,7 @@ html, body {
 
 .search-form {
   flex-grow: 1;
-  max-width: 68%; /* Set a max-width to prevent excessive growth */
+  max-width: 70%; /* Set a max-width to prevent excessive growth */
 }
 
 .search {
@@ -138,7 +139,7 @@ html, body {
   color:rgb(34, 33, 33);
 }
 
-/*Sidebar styling*/
+/*sidebar styling*/
 .sidebar {
   font-family: firstFont;
 }
@@ -158,7 +159,7 @@ html, body {
 
 .switch {
   position: relative;
-  width: 36px;
+  width: 36px; 
   height: 20px;
   padding-right: 10px;
 }
@@ -197,8 +198,8 @@ html, body {
 } 
 
 .slider:before {
-  height: 14px;
-  width: 14px;
+  height: 14px; 
+  width: 14px; 
   left: 3px;
   bottom: 3px;
   background-color: white;
@@ -228,44 +229,60 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-@font-face {
-  font-family: firstFont;
-  src: url("../fonts/JETSansDigital-Bold.ttf");
-}
-
-@font-face {
-  font-family: secondFont;
-  src: url("../fonts/JETSansDigital-Bold.woff");
-}
-
-@font-face {
-  font-family: thirdFont;
-  src: url("../fonts/JETSansDigital-Bold.woff2");
-}
-
-@font-face {
-  font-family: fourthFont;
-  src: url("../fonts/JETSansDigital-Regular(1).ttf");
- 
-}
-
-@font-face {
-  font-family: fifthFont;
-  src: url("../fonts/JETSansDigital-Regular.woff");
-}
-
-@font-face {
-  font-family: sixthFont;
-  src: url("../fonts/JETSansDigital-Regular.woff2"); 
-}
-
- .star-container{
+.star-container{
   padding-bottom: 20px;
 }  
 
 .checked {
   /* color: orange; */
-  color:#e3860d
+  color:#e3860d;
+}
+
+/*Card styling*/
+.subHeading {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-family: firstFont;
+}
+
+.card-container {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 2px 2px 6px 2px #ddd; 
+  margin: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+
+}
+
+.takeaway-photo-container {
+  width: 300px; 
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+}
+
+.takeaway-photo {
+  width: 110%;
+  height: 100%;
+}
+
+.takeway-icon {
+  position: absolute;
+  z-index: 2;
+  left: 10px;
+  bottom: 10px;
+  width: 50px; 
+  border-radius: 5px;
+}
+
+.takeaway-text {
+  width: 100%;
+  padding: 0 20px;
 }
 
 .material-symbols-outlined {
@@ -306,4 +323,3 @@ font-family: FifthFont;
 color: #282626;
 font-size: 12px;
 }
-
