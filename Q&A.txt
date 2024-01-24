@@ -1,26 +1,39 @@
 Q&A:
 Q: How long did you spend on this tech test? Did you use any methodologies or techniques when writing the code?
-I spent a total of 4 hours on this project. Approximately 2 hours on completing the UI as close to the design and another 2 hours doing the javascript implementation. The implementation consisted of dynamically generating html elements and refactoring code until functionality was achieved.
+
+I invested a total of 4 hours to this project, dedicating approximately 2 hours to crafting the UI to closely match the design specifications. The remaining 2 hours were devoted to the  implementation of JavaScript functionality. This involved the dynamic generation of HTML elements and multiple rounds of code refactoring.
 
 Methodologies/Techniques considered:
 - Flexbox vs Grid layout 
 - Pure Javascript/ Jquery
 - Es6 
 
-Q:If you had more time to spend on the solution, what else would you add/extend?
-I'd like to add the search implementation in the search box and the star rating 
-I would also like to try other ways of making the application more scalable i.e. how will it handle adding more listings?
-I could be being pedantic but further playing the box shadowing and border radius to get a more crisper design similar to the target design 
-Drop down box alignment with cards
+Q: If you had more time to spend on the solution, what else would you add/extend?
 
-Q:What browsers did you test this in? 
-When deployed using github pages 
-Default browser - Google chrome 
-Also tested in:
-- Firefox, Opera and Apple Safari 
+If given additional time to enhance the solution, I would also implement the search functionality within the search box and integrating a star rating system to enrich the user experience. Additionally, I'd explore strategies for scalability to ensure the application seamlessly accommodates the addition of more listings.
 
-Q:Are there any UI/UX improvements you would suggest for the current design?
-- Loading times
--Accessibility 
--White spaces 
-- User -input/feedback for design 
+Furthermore, I would refine the design aesthetics by fine-tuning box shadowing and border radius, aiming for a crisper appearance aligned with the target design. Addressing the alignment of drop-down boxes with cards would be another area of focus to optimise the overall layout and visuals.
+
+Q: What browsers did you test this in? 
+
+First deployed using github pages and then tested on browsers such as:
+- Google chrome, Firefox, Opera and Apple Safari 
+
+Q: Are there any UI/UX improvements you would suggest for the current design?
+
+1. **Loading Times:**
+   - Optimise asset sizes, such as images, to reduce page load times.
+
+2. **Accessibility:**
+   - Ensure all UI elements are keyboard accessible, meeting accessibility standards .
+   - Check colour contrast ratios for text and background elements to comply with accessibility guidelines.
+   - Include descriptive alt text for images to assist users with screen readers.
+   - Test with accessibility tools or conduct a manual accessibility audit to identify and address any issues.
+
+3. **White Spaces:**
+   - Carefully manage white spaces to maintain a clean and organised layout.
+   - Balance spacing to avoid overcrowding or excessive gaps, contributing to a visually appealing design.
+
+4. **User Input/Feedback for Design:**
+   - Provide error messages that are informative and guide users toward resolution.
+- Test improvements across various devices and screen sizes to ensure a consistent experience for all users.
