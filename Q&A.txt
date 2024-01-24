@@ -35,4 +35,5 @@ Q: Are there any UI/UX improvements you would suggest for the current design?
    - Balance spacing to avoid overcrowding or excessive gaps, contributing to a visually appealing design.
 
 4. **User Input/Feedback for Design:**
-   - Provide error messages that are informative and guide users toward resolution.- Test improvements across various devices and screen sizes to ensure a consistent experience for all users.
+   - Provide error messages that are informative and guide users toward resolution.
+   - Test improvements across various devices and screen sizes to ensure a consistent experience for all users.
