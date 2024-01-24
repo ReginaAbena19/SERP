@@ -3,10 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <title>JET SERP</title>
 </head>
 <body>
-  
+  <div class="content">
+    <section class="sidebar container">
+      <div class="title-wrapper">
+        <h1 class=title> 77 places<h1>
+      </div>
+
+      <div class="title-wrapper">
+        <h1 class=title> Open now<h1>
+            <label class="switch">
+              <input type="checkbox" id="isOpenToggle">
+              <span class="slider round"></span>
+            </label>
+      </div>
+
+      <div class="title-wrapper">
+        <h1 class=title> New<h1>
+            <label class="switch">
+              <input type="checkbox" id="isNewToggle">
+              <span class="slider round"></span>
+            </label>
+      </div>
+
+      <div class="title-wrapper">
+        <h1 class=title> Rating</h1>
+      </div>
+
+      <div class="star-container">
+        <span id="star" class="star ">&#9734;</span>
+        <span id="star" class="star">&#9734;</span>
+        <span id="star" class="star">&#9734;</span>
+        <span id="star" class="star">&#9734;</span>
+        <span id="star" class="star">&#9734;</span>
+      </div>
+    </section>
+
+    <!-- </header> -->
+    <div class="right container">
+      <header class="header">
+        <div class="navigation">
+          <form class="search-form">
+            <div class="search">
+              <span class="search-icon material-symbols-outlined">search</span>
+              <input class="search-input" type="search" placeholder="Places and items">
+            </div>
+          </form>
+          <div class="sort-area">
+            <div>
+              <h4 class="sort-by">Sort By</h4>
+            </div>
+            <select id ="select" class="select">
+              <option value="Best match">Best match</option>
+              <option value="Delivery Time">Delivery Time</option>
+              <option value="Review count">Reviews</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <!--main body-->
+      <main class="main">
+        <div class="subHeading">
+          <h1>Order from 77 places <span class="material-symbols-outlined">
+              info</span>
+          </h1>
+        </div>
+        <div class="card-container" id="generate-card-containers">
+        </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="index.js"></script>
 </html>
