@@ -18,32 +18,32 @@ html, body {
 /*Fonts */
 @font-face {
   font-family: firstFont;
-  src: url("../fonts/var(--firstFont)");
+  src: url("../fonts/JETSansDigital-Bold.ttf");
 }
 
 @font-face {
   font-family: secondFont;
-  src: url("../fonts/var(--secondFont)");
+  src: url("../fonts/JETSansDigital-Bold.woff");
 }
 
 @font-face {
   font-family: thirdFont;
-  src: url("../fonts/var(--thirdFont)");
+  src: url("../fonts/JETSansDigital-Bold.woff2");
 }
 
 @font-face {
   font-family: fourthFont;
-  src: url("../fonts/var(--fourthFont)");
+  src: url("../fonts/JETSansDigital-Regular(1).ttf");
 }
 
 @font-face {
   font-family: fifthFont;
-  src: url("../fonts/var(--fifthFont)");
+  src: url("../fonts/JETSansDigital-Regular.woff");
 }
 
 @font-face {
   font-family: sixthFont;
-  src: url("../fonts/var(--sixthFont)");
+  src: url("../fonts/JETSansDigital-Regular.woff2");
 }
 
 /*Layout styling */
